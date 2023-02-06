@@ -1,0 +1,341 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav */
+.header {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  margin-left: 1em;
+  font-family: 'Fuggles', cursive;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  float: left;
+  color: rgb(0, 255, 255);
+  background-color: black;
+  border: solid rgb(0, 255, 255);
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 60px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  margin-right: 2em;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: rgb(0, 146, 146);
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px 25px 0px 25px;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 70, 70);
+  text-decoration: underline;
+}
+
+nav ul li a.button {
+  border-radius: 20px;
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+  color: rgb(0, 255, 255);
+  font-weight: normal;
+}
+
+nav ul li a.button:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+/* Ending Nav */
+
+/* All Section */
+section {
+  display: flex;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+/* Home */
+img {
+  width: 70%;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.column {
+  margin-top: 9em;
+  margin-left: 1em;
+}
+
+.column .judul {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.column .hashtag {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 1em;
+}
+
+.column .deksripsi {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-right: 2em;
+  margin-bottom: 5em;
+}
+
+.column .button a {
+  background-color: black;
+  color: rgb(0, 255, 255);
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.1rem;
+}
+
+.column .button a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+/* Ending Home */
+
+/* Courses */
+#courses .column {
+  margin-top: 12em;
+  margin-left: 2em;
+}
+
+#courses .keterangan {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-right: 2em;
+  margin-bottom: 11em;
+}
+
+img {
+  width: 50%;
+  margin-right: 2em;
+}
+/* Ending Courses */
+
+/* Tutors */
+.tutors {
+  text-align: center;
+  width: 100%;
+}
+
+#tutors .keterangan {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.tutor-list {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0 auto;
+  width: 20%;
+}
+
+#tutors .card img {
+  width: 80%;
+  border-radius: 40%;
+  border: solid rgb(0, 255, 255);
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+/* Ending Tutors */
+
+/* Partners */
+.partners {
+  text-align: center;
+  width: 100%;
+}
+
+#partners .keterangan {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#partners .hastag {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 1em;
+}
+
+.partner-list {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0 auto;
+  width: 20%;
+}
+
+#partners .card img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+/* Ending Partners */
+
+/* Contact */
+.contact {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.contact .judul {
+  margin-bottom: 1rem;
+}
+
+.contact-list {
+  font-size: 1.1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Ending Contact */
+
+/* Footer */
+footer {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: black;
+  color: rgb(0, 255, 255);
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Fuggles', cursive;
+}
+
+footer a {
+  color: rgb(0, 255, 255);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+/* Ending Footer */
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  nav .menu {
+    z-index: -1;
+  }
+
+  .header {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  .header .logo {
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: block;
+    text-align: center;
+  }
+
+  section img {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    width: 100%;
+  }
+
+  .card {
+    width: 50%;
+  }
+
+  footer {
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: black;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Fuggles', cursive;
+  }
+}
+/* Ending responsive */
